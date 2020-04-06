@@ -1,0 +1,55 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  padding: 120px 30px 180px 30px;
+  text-align: center;
+}
+
+.header img {
+  width: 150%;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #35323e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  color: #9e9aa7;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.header .btn-header {
+  background-color: #2acfcf;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 60px;
+  padding: 15px 40px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.header .btn-header:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.header .btn-header:focus {
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=Header.css.map */

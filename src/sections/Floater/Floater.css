@@ -1,0 +1,39 @@
+.floater {
+  text-align: center;
+  padding: 80px 30px;
+  background-image: url("../../images/bg-boost-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #3b3054;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.floater h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.floater .btn-floater {
+  background-color: #2acfcf;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 60px;
+  padding: 20px 40px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.floater .btn-floater:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.floater .btn-floater:focus {
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=Floater.css.map */

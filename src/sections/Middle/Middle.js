@@ -2,12 +2,13 @@ import React from "react";
 import icon1 from "../../images/icon-brand-recognition.svg";
 import icon3 from "../../images/icon-fully-customizable.svg";
 import icon2 from "../../images/icon-detailed-records.svg";
-import Card from "../../components/Card";
+import Card from "../../components/Card/Card";
+import "./Middle.css";
 export default function Middle() {
   return (
-    <div>
-      <div>
-        <h1>Advanced Statistics</h1>
+    <div className="middle">
+      <div className="top-header">
+        <h2>Advanced Statistics</h2>
         <p>
           Track how your links are performing across the web with our advanced
           statistics dashboard.
@@ -41,4 +42,4 @@ export default function Middle() {
   );
 }
 
-//     Boost your links today Get Started 
+//     Boost your links today Get Started

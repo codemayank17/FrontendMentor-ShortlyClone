@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=App.css.map */

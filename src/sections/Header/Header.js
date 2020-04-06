@@ -1,5 +1,6 @@
 import React from "react";
 import illustration from "../../images/illustration-working.svg";
+import "./Header.css";
 export default function Header() {
   return (
     <div className="header">
@@ -9,7 +10,7 @@ export default function Header() {
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
         </p>
-        <button>Get Started</button>
+        <button className="btn-header">Get Started</button>
       </div>
 
       <div>
