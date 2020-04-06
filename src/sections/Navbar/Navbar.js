@@ -9,10 +9,7 @@ export default function Navbar() {
     else setCollapsed("");
   };
   return (
-    <nav
-      className="navbar"
-      onPointerLeave={() => collapsed === "open" && collapse()}
-    >
+    <nav className="navbar">
       <img src={Logo} alt="logo" />
       <button
         className={`hamburger hamburger-${collapsed}`}
