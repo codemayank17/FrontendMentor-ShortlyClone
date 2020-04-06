@@ -8,6 +8,7 @@
           flex-direction: column-reverse;
   padding: 120px 30px 180px 30px;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .header img {
