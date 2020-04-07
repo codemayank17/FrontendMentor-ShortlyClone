@@ -28,12 +28,27 @@
 }
 
 .floater .btn-floater:hover {
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  background-color: #50aaaa;
 }
 
 .floater .btn-floater:focus {
   border: none;
   outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .floater {
+    padding: 30px 30px;
+    background-image: url("../../images/bg-boost-desktop.svg");
+  }
+  .floater h2 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  .floater .btn-floater {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
 }
 /*# sourceMappingURL=Floater.css.map */

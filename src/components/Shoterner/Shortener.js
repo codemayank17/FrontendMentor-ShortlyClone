@@ -55,13 +55,15 @@ export default function Shortener() {
   return (
     <div className="shortener">
       <div className="shorten-form">
-        <input
-          className={`shortener-text-input${error ? " error-input" : ""}`}
-          type="text"
-          placeholder="Shorten a Link here."
-          onChange={(e) => setInputText(e.target.value)}
-        />
-        <span className="error">{error ? error : ""}</span>
+        <div className="form-group">
+          <input
+            className={`shortener-text-input${error ? " error-input" : ""}`}
+            type="text"
+            placeholder="Shorten a Link here."
+            onChange={(e) => setInputText(e.target.value)}
+          />
+          <span className="error">{error ? error : ""}</span>
+        </div>
         <button className="shorten-btn" onClick={() => shorten(inputText)}>
           Shorten It!
         </button>

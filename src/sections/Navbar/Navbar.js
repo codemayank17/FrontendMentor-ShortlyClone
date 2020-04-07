@@ -28,14 +28,11 @@ export default function Navbar() {
           <li>
             <a href="#!">Resources</a>
           </li>
-          <li>
+          <li id="login">
             <a href="#!">Login</a>
           </li>
-
-          <li>
-            <button className="btn-Nav">Sign Up</button>
-          </li>
         </ul>
+        <button className="btn-Nav">Sign Up</button>
       </div>
     </nav>
   );

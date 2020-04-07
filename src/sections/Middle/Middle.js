@@ -20,6 +20,7 @@ export default function Middle() {
 
       <div className="cards">
         <Card
+          cardnum="card1"
           icon={icon1}
           heading={"Detailed Records"}
           para={
@@ -27,6 +28,7 @@ export default function Middle() {
           }
         />
         <Card
+          cardnum="card2"
           icon={icon2}
           heading={"Brand Recognition"}
           para={
@@ -34,6 +36,7 @@ export default function Middle() {
           }
         />
         <Card
+          cardnum="card3"
           icon={icon3}
           heading={"Fully Customizable"}
           para={

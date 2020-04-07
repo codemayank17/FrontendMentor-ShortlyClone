@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="footer">
       <img src={logoWhite} alt="..." />
 
-      <div>
+      <div className="list">
         <h4>Features</h4>
         <ul>
           <li>
@@ -24,7 +24,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="list">
         <h4>Resources</h4>
         <ul>
           <li>
@@ -38,7 +38,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="list">
         <h4>Company</h4>
         <ul>
           <li>

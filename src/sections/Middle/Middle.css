@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #bfbfbf;
+  background-color: #f2f2f2;
   text-align: center;
   padding: 20px 30px 0px 30px;
 }
@@ -23,5 +23,34 @@
 
 .middle .top-header p {
   color: #9e9aa7;
+}
+
+@media only screen and (min-width: 768px) {
+  .middle {
+    padding: 20px 100px 0px 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .middle .top-header {
+    width: 60%;
+  }
+  .middle .top-header h2 {
+    color: #35323e;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .middle .top-header p {
+    font-size: 20px;
+    color: #9e9aa7;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .middle .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=Middle.css.map */

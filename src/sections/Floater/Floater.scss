@@ -25,12 +25,26 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     &:hover {
-      transform: translateY(-3px);
+      background-color: desaturate($Cyan, $amount: 30);
     }
 
     &:focus {
       border: none;
       outline: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 30px 30px;
+    background-image: url("../../images/bg-boost-desktop.svg");
+    h2 {
+      font-size: 35px;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+    .btn-floater {
+      font-size: 18px;
+      padding: 15px 40px;
     }
   }
 }
