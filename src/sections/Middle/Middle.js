@@ -3,10 +3,13 @@ import icon1 from "../../images/icon-brand-recognition.svg";
 import icon3 from "../../images/icon-fully-customizable.svg";
 import icon2 from "../../images/icon-detailed-records.svg";
 import Card from "../../components/Card/Card";
+
 import "./Middle.css";
+import Shortener from "../../components/Shoterner/Shortener";
 export default function Middle() {
   return (
     <div className="middle">
+      <Shortener />
       <div className="top-header">
         <h2>Advanced Statistics</h2>
         <p>

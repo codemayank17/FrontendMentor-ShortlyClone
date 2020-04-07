@@ -1,0 +1,55 @@
+@import "../../styles/vars";
+.shortened {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 20px 0px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  hr {
+    color: $Gray;
+    height: 1px;
+  }
+  .orignal {
+    font-size: 16px;
+    color: $VeryDarkBlue;
+    margin: 0 0px 5px 20px;
+  }
+  .generated {
+    margin-top: 10px;
+    color: $Cyan;
+    margin-left: 10px;
+
+    a {
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: $DarkViolet;
+      }
+    }
+  }
+  .copy {
+    margin: 10px 20px 0 20px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: $Cyan;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  .copied {
+    margin: 10px 20px 0 20px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: $DarkViolet;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+  }
+}
